@@ -1,0 +1,116 @@
+
+
+h1{
+    margin:auto;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Parisienne', cursive;
+    font-weight: 700;
+    padding: 25px 0 25px;
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 10px 0 10px;
+}
+
+p{
+    padding: 5px 5px 15px 5px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.firstBox{
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+
+
+
+
+.secondBox{
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+
+
+.quater {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.half {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+img {
+margin: 15px;
+}
+.paraHalf {
+    width: 100%;
+}
+
+
+.threeFourth {
+    width: 75%;
+    border-left: 1px solid black
+}
+ul{
+    height: 100%;   
+    justify-content: space-between;
+    padding-right: 20px;
+    
+}
+
+li {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;  
+    color: white;
+    font-weight: 700; 
+    font-size: 25px;
+    font-family: Oswald;
+    padding-left: 20px;
+}
+
+li:nth-child(1) {
+    background-color: aqua;
+    
+}
+
+li:nth-child(2) {
+    background-color: rgb(75, 67, 194);
+}
+
+li:nth-child(3) {
+    background-color: rgb(0, 255, 42);
+}
+
+li:nth-child(4) {
+    background-color: rgb(117, 35, 150);
+}
+
+li:nth-child(5) {
+    background-color: rgb(157, 221, 39);
+}
+
+
+
